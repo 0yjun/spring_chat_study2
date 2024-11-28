@@ -36,9 +36,18 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.security:spring-security-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+    //modelmapper
+    implementation 'org.modelmapper:modelmapper:2.1.1'
+
+    //objectMapper
+    //implementation 'com.fasterxml.jackson.core:jackson-databind:2.0.1'
     
     //jasypt 암호화
     implementation 'com.github.ulisesbocchio:jasypt-spring-boot-starter:3.0.4'
+
+    //validation
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
 }
 
 tasks.named('test') {

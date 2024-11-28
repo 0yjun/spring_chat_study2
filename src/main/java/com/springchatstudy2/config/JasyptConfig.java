@@ -1,4 +1,4 @@
-package config;
+package com.springchatstudy2.config;
 
 import jakarta.annotation.PostConstruct;
 import org.jasypt.encryption.StringEncryptor;
