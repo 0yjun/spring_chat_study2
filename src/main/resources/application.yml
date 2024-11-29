@@ -17,7 +17,7 @@ spring:
             ddl-auto: create-drop
         properties:
             hibernate:
-                #show_sql: true
+                show_sql: true
                 format_sql: true
                 use_sql_comments: true
                 dialect: org.hibernate.dialect.MySQLDialect
@@ -33,3 +33,6 @@ jasypt:
         password:
             spring_chat
 
+logging.level:
+    org.hibernate.SQL: debug
+    org.hibernate.type: trace
